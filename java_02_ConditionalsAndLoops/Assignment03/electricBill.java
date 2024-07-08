@@ -4,7 +4,7 @@ package java_02_ConditionalsAndLoops.Assignment03;
 
 import java.util.Scanner;
 
-public class ecectricBill {
+public class electricBill {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
