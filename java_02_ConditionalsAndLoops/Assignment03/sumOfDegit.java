@@ -1,8 +1,10 @@
 package java_02_ConditionalsAndLoops.Assignment03;
 
+//24 Sum Of A Digits Of Number
+
 import java.util.Scanner;
 
-public class average {
+public class sumOfDegit {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("enter the number");
@@ -13,12 +15,7 @@ public class average {
              int rem = n % 10; 
              n = n / 10;
              sum = sum + rem;
-            
-            //  int rem = n%10;
-            //  n = n / 10;
-            
-            //  ans = ans + rem;
-             
+           
         }System.out.println(sum);
     }
 }
